@@ -19,7 +19,7 @@ export default function ProductItem() {
     return (
         <div className="product-item">
             <Grid item xs={12} md={6} lg={6}>
-                <img className="shoe-img" src={shoe.img} alt="Shoe Image"/>
+                <img className="shoe-img" src={shoe.img} alt="Shoe"/>
             </Grid>
             <div class="product-right">
                 <Grid item xs={12} sm={12} md={6} lg={6}>
