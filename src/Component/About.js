@@ -12,10 +12,10 @@ export default function About() {
         <div className="container ">
             <h1 className="about-heading">about me</h1>
             <div className="row mt-5">
-                <div className="col-lg-6">
+                <div className=" col-lg-6 col-md-12 col-sm-12 ">
                     <img className="myImg" src={myimg} alt="My Image"/>
                 </div>
-                <div className="col-lg-6">
+                <div className="  col-lg-6 col-md-12 col-sm-12 div-right">
                     <h2>Ali Jawwad</h2>
                     <p className="text-muted">
                         This is a <strong>Shoe Store</strong> project. This project is build and developed under the guidence of 
