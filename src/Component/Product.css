@@ -1,0 +1,37 @@
+.product-heading{
+    text-align: left;
+    font-size:28px;
+    font-style: italic;
+    margin-left:15px;
+}
+.discount{
+    text-align: center;
+    background-color: silver;
+    color:white;
+    text-transform: uppercase;
+    padding:5px;
+    box-sizing: border-box;
+}
+.discount-text{
+    font-size:24px;
+}
+/* .product{
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    margin:20px 15px;
+    justify-content: space-around;
+
+    position: relative;
+    top:12px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+} */
+.shoe-img{
+    height: 350px;
+    width: 300px;
+}
+.link{
+    text-decoration: none;
+}

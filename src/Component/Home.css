@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.container-fluid {
+    height: 120vh;
+    margin-top: 20px;
+    text-align: center;
+    background-image: url("./../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-heading{
+    text-transform: uppercase;
+    font-size: 90px;
+    position: relative;
+    margin-top: 180px;
+    font-family: 'Josefin Sans', cursive;
+    color: ghostwhite;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.home-btn {
+    width: 300px;
+    padding: 20px;
+}
+
+.icon-btn {
+    padding-right: 15px !important;
+    font-size: 40px !important;
+}
+
+.link {
+    text-decoration: none !important;
+    color: white;
+}
+
+@media only screen and (max-width:600px) {
+    .container-fluid {
+        height: 89vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .main-heading{
+        font-size: 35px;
+    }
+
+    .home-btn {
+        position: relative;
+        top: 25px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .container-fluid {
+        height: 94vh;
+    }
+
+    .main-heading{
+        font-size: 90px;
+    }
+
+    .home-btn {
+        width: 500px;
+        padding: 14px !important;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .main-heading{
+        position: relative;
+        top: 250px;
+    }
+
+    .home-btn {
+        position: relative;
+        top: 280px;
+        width: 700px;
+    }
+
+}
+@media only screen and (min-width:1366px){
+    .main-heading{
+      margin-top: -50px;
+    }
+}

@@ -1,0 +1,93 @@
+.product-item{
+    display: flex;
+    flex-direction: row;
+    width: 100% !important;
+}
+.product{
+    text-align: center;
+}
+.shoe-img{
+    height: 700px;
+    width: 700px;
+    text-align: center;
+}
+.product-right{
+    margin-left: 50px;
+    width: 100% !important;
+}
+.shoe-heading{
+    margin-top: 50px;
+    font-size:25px;
+}
+.btn{
+    width: 480px;
+    text-align: center !important;
+    margin-top: 20px !important;
+}
+.icon{
+    padding-right: 5px;
+}
+.product-right-text{
+    margin-top: 50px !important;
+}
+
+@media only screen and (max-width:600px){
+    .product-item{
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .product-right{
+        width:150% !important;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:768px){
+    .product-item{
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .shoe-img{
+        text-align: center;
+        margin-left: 30px;
+    }
+    .product-right{
+        width:80% !important;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:1024px){
+    .product-item{
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+    }
+     .shoe-img{
+        text-align: center;
+        margin-left: 270px;
+        margin-top: 150px;
+    }
+    .product-right{
+        width:100% !important;
+        text-align: center;
+        margin-left: 380px;
+    }
+}
+@media only screen and (min-width:1366px){
+    .product-item{
+        display: flex;
+        flex-direction: row;
+        width: 100% !important;  
+    }
+    .shoe-img{
+        text-align: center;
+        margin-left: 00px;
+        margin-top: 00px;
+    }
+    .product-right{
+        width:100% !important;
+        text-align: left;
+        margin-left: 70px;
+    }
+}

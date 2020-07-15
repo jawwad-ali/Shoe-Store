@@ -1,0 +1,50 @@
+{
+    "air-jordan-1-mid" : {
+        "name" : "Air Jordan 1 Mid",
+        "img" : "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/25ff6e8e-77e0-43de-b78b-37082b091533/air-jordan-1-mid-shoe-1zMCFJ.jpg"
+    },
+    "nike-airforce-1" : {
+        "name" : "Nike Airforce 1",
+        "img" : "https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/gsuin11ptg5qgktmzoat/air-force-1-07-mens-shoe-JkTGzADv.jpg"
+    },
+    "nike-air-zoom-type" : {
+        "name" : "Nike Air Zoom-Type",
+        "img" : "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5c1e3a90-b2b7-479c-b567-3b50903cf9da/air-zoom-type-mens-shoe-PZR40V.jpg"
+    },
+    "nike-air-zoom":{
+        "name" : "Nike Air Zoom",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1a21d694-5d37-477a-9cab-73391716d27b/air-zoom-pegasus-37-mens-running-shoe-KLvDcj.jpg"
+    },
+    "nike-air-vapourmax" : {
+        "name" : "Nike Air VapourMax One",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-0a8ccb39-2565-47b2-862c-24b206e6f156/air-vapormax-flyknit-3-usa-mens-shoe-SKwDlj.jpg"
+    },
+    "nike-blazer-mid-vintage" : {
+        "name" : "Nike Blazer Mid 77",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/eric5lwitzffpoisq0rj/blazer-mid-77-vintage-shoe-flCCX4.jpg"
+    },
+    "nike-air-vapourmax-3":{
+        "name" : "Nike Air VapourMax Two",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0461588d-8aae-46b2-a7cf-ab23b86a07af/air-vapormax-flyknit-3-mens-shoe-JsWsB7.jpg"
+    },
+    "lebron-17-low":{
+        "name" : "LeBron 17 Low",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-61577d81-bb91-40da-af21-274709906cab/lebron-17-low-basketball-shoe-fHcqqM.jpg"
+    },
+    "nike-air-max":{
+        "name" : "Nike Air 90 N7",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/67835ada-210e-45a8-bd77-7d359269938d/air-max-90-n7-mens-shoe-9qDv5V.jpg"
+    },
+    "kd-13":{
+        "name" : "KD13",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/58303425-b100-41a9-b6aa-dd5264c1bd2f/kd13-basketball-shoe-kbKpNV.jpg"
+    },
+    "air-jordan-3-valor-blue-shoe1" : {
+        "name" : "VALOR BLUE",
+        "img" : "https://i.pinimg.com/736x/8f/32/7b/8f327bdc335a1e53853dfac567d20674.jpg"
+    },
+    "nike-super-rep":{
+        "name" : "Nike Super Rep Go",
+        "img" : "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/i1-851979ca-6516-4d70-9c9f-8dc545aea89c/superrep-go-mens-training-shoe-19sK4X.jpg"
+    }
+}
