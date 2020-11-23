@@ -1,37 +1,48 @@
-.product-heading{
+.product-heading {
     text-align: left;
-    font-size:28px;
+    font-size: 28px;
     font-style: italic;
-    margin-left:15px;
+    margin-left: 15px;
 }
-.discount{
+
+.discount {
     text-align: center;
     background-color: silver;
-    color:white;
+    color: white;
     text-transform: uppercase;
-    padding:5px;
+    padding: 5px;
     box-sizing: border-box;
 }
-.discount-text{
-    font-size:24px;
-}
-/* .product{
-    display: flex;
-    flex-direction: row;
-    display: inline-block;
-    margin:20px 15px;
-    justify-content: space-around;
 
-    position: relative;
-    top:12px;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) ;
-} */
-.shoe-img{
+.discount-text {
+    font-size: 24px;
+}
+
+.product-page-heading {
+    margin-left: 70px;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.shoe-img {
     height: 350px;
     width: 300px;
 }
-.link{
+
+.link {
     text-decoration: none;
+}
+
+@media only screen and (max-width:600px) {
+    .product-page-heading {
+        margin-left: 50px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .product-listing-div {
+        position: relative;
+        top: 20px;
+    }
 }

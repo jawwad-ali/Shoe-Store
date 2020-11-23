@@ -1,83 +1,94 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
-.about-heading{
+.about-heading {
     text-transform: uppercase;
     text-align: center;
     font-family: 'Josefin Sans', cursive;
     font-weight: bold;
 }
-.myImg{
+
+.myImg {
     height: 400px;
     width: auto;
 }
-.text-muted{
+
+.text-muted {
     line-height: 29px;
 }
-.icons{
+
+.icons {
     margin-top: 25px;
-    font-size:35px !important;
+    font-size: 35px !important;
     margin-right: 15px;
 }
-@media only screen and (max-width:600px){
-    .container{
+
+@media only screen and (max-width:600px) {
+    .container {
         margin-top: 50px;
-        margin-bottom: 70px ;
+        margin-bottom: 70px;
     }
-    .div-right{
+
+    .div-right {
         position: relative;
-        top:200px;
+        top: 200px;
         left: 60%;
         margin-right: -50%;
-        transform: translate(-50%, -50%) ;
-    }
-}
-@media only screen and (min-width:768px){
-    .container{
-        margin-bottom: -50px ;
-    }
-    .myImg{
-        position: relative;
-        top:200px;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%) ;
-    }
-    .div-right{
-        position: relative;
-        top:200px;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%) ;
+        transform: translate(-50%, -50%);
     }
 }
 
-@media only screen and (min-width:1024px){
-    .myImg{
-        position: relative;
-        top:200px;
-        left: 100%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%) ;
+@media only screen and (min-width:768px) {
+    .container {
+        margin-bottom: -50px;
     }
-    .div-right{
+
+    .myImg {
         position: relative;
-        top:650px;
-        left: 0%;
+        top: 200px;
+        left: 50%;
         margin-right: -50%;
-        transform: translate(-50%, -50%) ;
+        transform: translate(-50%, -50%);
+    }
+
+    .div-right {
+        position: relative;
+        top: 200px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
     }
 }
-@media only screen and  (min-width:1366px){
-    .myImg{
+
+@media only screen and (min-width:1024px) {
+    .myImg {
         position: relative;
-        top:200px;
+        top: 200px;
+        left: 100%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .div-right {
+        position: relative;
+        top: 750px;
+        left: 0%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (min-width:1366px) {
+    .myImg {
+        position: relative;
+        top: 200px;
         left: 200px;
     }
-    .div-right{
+
+    .div-right {
         position: relative;
         top: 200px;
         left: 20%;
         margin-right: -50%;
-        transform: translate(-50%, -50%) ;
+        transform: translate(-50%, -50%);
     }
 }

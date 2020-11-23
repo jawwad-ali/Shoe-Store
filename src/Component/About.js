@@ -12,14 +12,14 @@ export default function About() {
         <div className="container ">
             <h1 className="about-heading">about me</h1>
             <div className="row mt-5">
-                <div className=" col-lg-6 col-md-12 col-sm-12 ">
-                    <img className="myImg" src={myimg} alt="myself"/>
+                <div className="col-lg-6 col-md-12 col-sm-12 ">
+                    <img className="myImg" src={myimg} alt="myself" />
                 </div>
-                <div className="  col-lg-6 col-md-12 col-sm-12 div-right">
+                <div className="col-lg-6 col-md-12 col-sm-12 text-center div-right">
                     <h2>Ali Jawwad</h2>
                     <p className="text-muted">
-                        This is a <strong>Shoe Store</strong> project. This project is build and developed under the guidence of 
-                        PanaCloud team. This is my BootCamp project number <strong>3</strong>. This project is developed by using 
+                        This is a <strong>Shoe Store</strong> project. This project is build and developed under the guidence of
+                        PanaCloud team. This is my BootCamp project number <strong>3</strong>. This project is developed by using
                         HTML 5 , CSS 3 , BootStarp ,  React JS (React Routes and Material UI ).
                     </p>
                     <div class="text-center ">
@@ -27,13 +27,13 @@ export default function About() {
                             <GitHubIcon className="icons" />
                         </a>
                         <a href="https://www.facebook.com/ali.jawwad.56" title="Facebook">
-                            <FacebookIcon className="icons"  />
+                            <FacebookIcon className="icons" />
                         </a>
                         <a href="https://twitter.com/alijawwad1995" title="Twitter">
-                            <TwitterIcon className="icons"/>
+                            <TwitterIcon className="icons" />
                         </a>
                         <a href="https://www.instagram.com/alijawwad199/?hl=en" title="Instagram">
-                            <InstagramIcon className="icons"/> 
+                            <InstagramIcon className="icons" />
                         </a>
                     </div>
                 </div>

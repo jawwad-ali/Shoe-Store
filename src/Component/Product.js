@@ -9,21 +9,23 @@ import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import VisibilityIcon from '@material-ui/icons/Visibility';
-import Shoes from  './../json/shoes.json'
+import Shoes from './../json/shoes.json'
 import './Product.css'
 import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
     main: {
         width: "100%",
-        textAlign:"center",
+        textAlign: "center",
     },
-    heading: {
-        fontSize: "25px",
-    },
+    // heading: {
+    //     fontSize: "25px",
+    //     marginLeft: "70px"
+    // },
     root: {
         maxWidth: 345,
-        marginTop:"17px",
+        marginTop: "17px",
+        marginLeft: "25px",
     },
     media: {
         height: 0,
@@ -50,46 +52,42 @@ const useStyles = makeStyles((theme) => ({
 export default function RecipeReviewCard() {
     const classes = useStyles();
     const ShoeKey = Object.keys(Shoes)
-    
+
     return (
         <div>
-        <p className={classes.heading}>Men's Shoe and Sneaker</p>
-        <div className="discount"> <p className="discount-text"> upto 40% off! </p></div>
-        <Grid className={classes.main} container spacing={3}>
-            {
-                ShoeKey.map(keyName => {
-                   
-                    const shoe =  Shoes[keyName]
+            <h2 className="product-page-heading" >Men's Shoe and Sneaker</h2>
+            <div className="discount"> <p className="discount-text"> upto 40% off! </p></div>
+            <Grid className={classes.main} container spacing={3}>
+                {
+                    ShoeKey.map(keyName => {
 
-                    return (
-                        <Grid item xs={12} md={3} lg={3}>
-                            <Card key={keyName} className={classes.root}>
-                                <CardHeader
-                                    title={shoe.name} 
-                                />
-                                <CardMedia
-                                    className={classes.media}
-                                    image={shoe.img}
-                                />
-                                <CardContent>
-                                    <Button className={classes.btn} variant="contained" color="secondary">
-                                        <ShoppingCartIcon className={classes.icon} />
-                                        Add tO Cart
-                                    </Button>
-                                    <Link className="link" to={`/product/${keyName}`}>
-                                        <Button variant="contained" color="primary">
-                                            <VisibilityIcon className={classes.icon} />
+                        const shoe = Shoes[keyName]
+
+                        return (
+                            <Grid className="product-listing-div" item xs={6} md={3} lg={3}>
+                                <Card  key={keyName} className={classes.root}>
+                                    <CardHeader
+                                        title={shoe.name}
+                                    />
+                                    <CardMedia
+                                        className={classes.media}
+                                        image={shoe.img}
+                                    />
+                                    <CardContent>
+                                        <Link className="link" to={`/product/${keyName}`}>
+                                            <Button variant="contained" color="primary">
+                                                <VisibilityIcon className={classes.icon} />
                                             Quick View
                                         </Button>
-                                    </Link>  
-                                </CardContent>
-                            </Card>
-                        </Grid>
-                    )
-                })
-            }
-        </Grid>
+                                        </Link>
+                                    </CardContent>
+                                </Card>
+                            </Grid>
+                        )
+                    })
+                }
+            </Grid>
         </div>
     );
-        
+
 }
