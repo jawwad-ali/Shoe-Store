@@ -7,7 +7,6 @@ import CardContent from '@material-ui/core/CardContent';
 import { red } from '@material-ui/core/colors';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import Shoes from './../json/shoes.json'
 import './Product.css'
