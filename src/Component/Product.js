@@ -63,24 +63,26 @@ export default function RecipeReviewCard() {
                         const shoe = Shoes[keyName]
 
                         return (
-                            <Grid className="product-listing-div" item xs={6} md={3} lg={3}>
-                                <Card  key={keyName} className={classes.root}>
-                                    <CardHeader
-                                        title={shoe.name}
-                                    />
-                                    <CardMedia
-                                        className={classes.media}
-                                        image={shoe.img}
-                                    />
-                                    <CardContent>
-                                        <Link className="link" to={`/product/${keyName}`}>
-                                            <Button variant="contained" color="primary">
-                                                <VisibilityIcon className={classes.icon} />
+                            <Grid className="product-listing-div" item xs={12} sm={12} md={3} lg={3}>
+                                <div className="single-product-div">
+                                    <Card key={keyName} className={classes.root}>
+                                        <CardHeader
+                                            title={shoe.name}
+                                        />
+                                        <CardMedia
+                                            className={classes.media}
+                                            image={shoe.img}
+                                        />
+                                        <CardContent>
+                                            <Link className="link" to={`/product/${keyName}`}>
+                                                <Button variant="contained" color="primary">
+                                                    <VisibilityIcon className={classes.icon} />
                                             Quick View
                                         </Button>
-                                        </Link>
-                                    </CardContent>
-                                </Card>
+                                            </Link>
+                                        </CardContent>
+                                    </Card>
+                                </div>
                             </Grid>
                         )
                     })
